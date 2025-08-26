@@ -54,5 +54,5 @@ This project is for educational and demonstration purposes only. It is not inten
 
 ## Author
 
-Project developed by [Mohan Narayanapuram].  
-For questions or feedback, please contact [mohanvenkat017@gmail.com].
+Project developed by Mohan Narayanapuram.  
+For questions or feedback, please contact mohanvenkat017@gmail.com .

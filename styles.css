@@ -1,0 +1,106 @@
+/* Medical Theme Color Palette Variables */
+:root {
+  --primary-blue: #0d3b66;
+  --secondary-teal: #70A9A1;
+  --accent-green: #028A0F;
+  --warning-orange: #FFA500;
+  --danger-red: #FF0000;
+  
+  /* Light Mode Colors */
+  --bg-light: #f0f4f8;
+  --card-light: #ffffff;
+  --text-light: #333333;
+  --sidebar-light: #dde6f0;
+  
+  /* Dark Mode Colors */
+  --bg-dark: #121212;
+  --card-dark: #1E1E1E;
+  --text-dark: #E0E0E0;
+  --sidebar-dark: #22333B;
+}
+
+/* Light Mode Styles */
+.light-mode .stApp {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-mode .header {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--primary-blue);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.light-mode .result-card, 
+.light-mode .med-card {
+  background-color: var(--card-light) !important;
+  padding: 1.2rem 1.5rem !important;
+  border-radius: 15px !important;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12) !important;
+  margin-bottom: 1.5rem !important;
+  color: var(--text-light) !important;
+  border-left: 4px solid var(--secondary-teal);
+}
+
+/* Dark Mode Styles */
+.dark-mode .stApp {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-mode .header {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--secondary-teal);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.dark-mode .result-card, 
+.dark-mode .med-card {
+  background-color: var(--card-dark) !important;
+  padding: 1.2rem 1.5rem !important;
+  border-radius: 15px !important;
+  box-shadow: 0 3px 8px rgba(255,255,255,0.1) !important;
+  margin-bottom: 1.5rem !important;
+  color: var(--text-dark) !important;
+  border-left: 4px solid var(--secondary-teal);
+}
+
+/* Common Styles */
+.section-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.med-card p {
+  margin: 0.25rem 0;
+}
+
+.prediction-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.medicine-name {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.risk-score-excellent {
+  color: var(--accent-green);
+}
+
+.risk-score-moderate {
+  color: var(--warning-orange);
+}
+
+.risk-score-high {
+  color: var(--danger-red);
+}
